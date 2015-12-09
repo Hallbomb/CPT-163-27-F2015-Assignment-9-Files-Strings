@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+import dice.DiceTower;
+import dice.Fudge;
+import dice.Loaded;
+
+public class DiceReader {
+
+  public static void test_reader() {
+    DiceFileReader diceReader = new DiceFileReader("./dice.txt");
+    diceReader.read();
+    }
+    }
